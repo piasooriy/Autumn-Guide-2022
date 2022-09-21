@@ -10,15 +10,18 @@ body {
 h1 {
 	display: flex;
 	justify-content: center;
+	font-family: 'Italiana', 'serif';
 }
 
 h2 {
 	display: flex;
 	justify-content: center;
+	font-family: 'Italiana', 'serif';
 }
 
 
 button {
+	font-family: 'Judson', 'serif';
 	color: white;
 	background-color: #A56021;
 	padding: 0.5rem 1rem;
