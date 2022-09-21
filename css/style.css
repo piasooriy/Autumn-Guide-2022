@@ -63,3 +63,8 @@ main {
 	width: 100%;
 	height: auto;
 }
+
+p {
+	font-family: 'Judson', 'serif';
+	justify-content: center;
+}
