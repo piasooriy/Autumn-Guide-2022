@@ -66,5 +66,8 @@ main {
 
 p {
 	font-family: 'Judson', 'serif';
-	justify-content: center;
+	text-align: center;
+	width: 95vw;
+	margin-top: 1rem;
+
 }
