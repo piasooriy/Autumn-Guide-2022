@@ -24,8 +24,9 @@ button {
 	font-family: 'Judson', 'serif';
 	color: white;
 	background-color: #A56021;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 2rem;
 	border-radius: 50px;
+	size: 20rem 20rem;
 }
 
 nav {
