@@ -27,7 +27,7 @@ hr {
 	padding: 0;
 }
 
-button {
+.fall-button {
 	font-family: 'Judson', 'serif';
 	color: white;
 	background-color: #A56021;
@@ -35,13 +35,14 @@ button {
 	border-radius: 50px;
 	size: 20rem 20rem;
 	font-size: 1rem;
+	margin: 40px 20px;
 }
 
 nav {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	justify-content: space-between;
-	margin: 2rem auto; 
+	margin: 10px auto; 
 }
 
 
@@ -52,7 +53,7 @@ main {
 }
 
 .hero-image {
-	width: 72.5rem;
+	width: 95vw;
 	height: 25rem;
 	overflow: hidden;
 	
