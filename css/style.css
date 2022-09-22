@@ -72,3 +72,10 @@ p {
 	margin-top: 1rem;
 
 }
+
+.links {
+	background-color: #e4e2e2;
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+}
