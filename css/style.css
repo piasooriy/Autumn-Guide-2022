@@ -38,12 +38,26 @@ hr {
 	margin: 40px 20px;
 }
 
+
+.chosen-button {
+	font-family: 'Judson', 'serif';
+	color: white;
+	background-color: #433D3D;
+	padding: 1rem 2rem;
+	border-radius: 50px;
+	size: 20rem 20rem;
+	font-size: 1rem;
+	margin: 40px 20px;
+
+}
+
 nav {
 	display: flex;
 	justify-content: center;
 	justify-content: space-between;
 	margin: 10px auto; 
 }
+
 
 
 main {
