@@ -89,7 +89,11 @@ p {
 
 .links {
 	background-color: #e4e2e2;
-	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	/*height: 200px;
 	width: 200px;
-	margin: 20px;
+	margin: 20px;*/
+	font-size: 0.9rem;
 }
