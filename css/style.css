@@ -104,8 +104,3 @@ section {
 	margin: 20px;*/
 	font-size: 0.9rem;
 }
-
-img {
-	max-width: 400px;
-	flex-flow: column;
-}
