@@ -14,8 +14,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-	.food-links {
-		flex-direction: column;
+	section {
+		display: grid;
 	}
 }
 
@@ -97,12 +97,15 @@ main {
 }
 
 section {
-	display: flex;
+	display: grid;
 	gap: 10px;
-	justify-content: space-between;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows:minmax(200px, auto);
+
+	/*justify-content: space-between;
 	flex-wrap: wrap; 
 	margin: 30px 10px;
-	/*flex-flow: row;
+	flex-flow: row;
 	gap: 15px;
 	width: 1500px;*/
 
@@ -111,18 +114,19 @@ section {
 
 .links {
 	background-color: #d0c9b6;
-	flex: 1;
-	/*width: 15%;*/
+	height: 300px;
+	width: 300px;
+	margin: 10px 10px;
 	font-size: 0.9rem;
 	/*height: 200px;
 	width: 200px;
 	/*margin: 20px;*/
 }
 
-.outdoor-links {
+/*.outdoor-links {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	gap: 10px;
 	margin: 30px 10px;
-}
+}*/
