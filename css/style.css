@@ -7,6 +7,18 @@ body {
 	margin: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+	body {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.food-links {
+		flex-direction: column;
+	}
+}
+
 h1 {
 	display: flex;
 	justify-content: center;
@@ -48,7 +60,6 @@ hr {
 	size: 20rem 20rem;
 	font-size: 1rem;
 	margin: 40px 20px;
-
 }
 
 nav {
@@ -57,8 +68,6 @@ nav {
 	justify-content: space-between;
 	margin: 10px auto; 
 }
-
-
 
 main {
 	width: 100vw;
@@ -103,12 +112,11 @@ main {
 .links {
 	background-color: #d0c9b6;
 	flex: 1;
-	width: 15%;
+	/*width: 15%;*/
 	font-size: 0.9rem;
-	/*
-	height: 200px;
+	/*height: 200px;
 	width: 200px;
-	margin: 20px;*/
+	/*margin: 20px;*/
 }
 
 .outdoor-links {
