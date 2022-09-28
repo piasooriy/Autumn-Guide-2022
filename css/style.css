@@ -7,25 +7,7 @@ body {
 	margin: 2rem;
 }
 
-@media screen and (max-width: 768px) {
-	body {
-		flex-direction: column;
-	}
-	nav {
-		display: flex;
-		flex-direction: column;
-	}
-	section {
-		display: flex;
-		flex-direction: column;
-	}
-}
 
-@media screen and (min-width: 768px) {
-	section {
-		display: grid;
-	}
-}
 
 h1 {
 	display: flex;
@@ -87,7 +69,6 @@ main {
 	width: 95vw;
 	height: 25rem;
 	overflow: hidden;
-	
 }
 
 .hero-image img {
@@ -101,13 +82,12 @@ main {
 	text-align: center;
 	width: 95vw;
 	margin-top: 1rem;
-
 }
 
 section {
 	display: grid;
 	gap: 10px;
-	grid-template-columns: repeat(4, 1fr); 
+	grid-template-columns: repeat(3, 1fr); 
 	grid-template-rows: minmax(200px, auto);
 	justify-content: center;
 
@@ -122,19 +102,32 @@ section {
 
 .links {
 	background-color: #d0c9b6;
-	height: 300px;
-	width: 300px;
-	margin: 10px 10px;
+	margin: 8px 8px;
+	padding: 10px;
 	font-size: 0.9rem;
+	height: 200px;
 	/*height: 200px;
 	width: 200px;
 	/*margin: 20px;*/
+
+	/*added media to make the links responsive. Used flex on nav to make it lay under eachother, and grid on links*/
+}
+@media screen and (max-width: 768px) {
+	body {
+		flex-direction: column;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+	section {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr); 
+	}
 }
 
-/*.outdoor-links {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 10px;
-	margin: 30px 10px;
-}*/
+@media screen and (min-width: 768px) {
+	section {
+		display: grid;
+	}
+}
