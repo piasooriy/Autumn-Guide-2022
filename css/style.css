@@ -8,11 +8,13 @@ body {
 }
 
 
-
-h1 {
+/* Added a so that we can style the color of the link*/
+h1 a {
 	display: flex;
 	justify-content: center;
 	font-family: 'Italiana', 'serif';
+	text-decoration: none;
+	color: black;
 }
 
 h2 {
@@ -28,6 +30,7 @@ hr {
 	margin: 1em 0;
 	padding: 0;
 }
+
 
 .fall-button {
 	font-family: 'Judson', 'serif';
@@ -105,13 +108,21 @@ section {
 	margin: 8px 8px;
 	padding: 10px;
 	font-size: 0.9rem;
+	font-family: 'Judson', 'serif';
 	height: 200px;
 	/*height: 200px;
 	width: 200px;
 	/*margin: 20px;*/
 
-	/*added media to make the links responsive. Used flex on nav to make it lay under eachother, and grid on links*/
+	/*added 
+	media to make the links responsive. Used flex on nav to make it lay under eachother, and grid on links*/
 }
+
+section div a {
+	text-decoration: none;
+	color: #A56021;
+}
+
 @media screen and (max-width: 768px) {
 	body {
 		flex-direction: column;
