@@ -7,7 +7,6 @@ body {
 	margin: 2rem;
 }
 
-
 /* Added a so that we can style the color of the link*/
 h1 a {
 	display: flex;
@@ -31,7 +30,6 @@ hr {
 	padding: 0;
 }
 
-
 .fall-button {
 	font-family: 'Judson', 'serif';
 	color: white;
@@ -42,7 +40,6 @@ hr {
 	font-size: 1rem;
 	margin: 40px 20px;
 }
-
 
 .chosen-button {
 	font-family: 'Judson', 'serif';
