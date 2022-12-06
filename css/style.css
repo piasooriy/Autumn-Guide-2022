@@ -7,7 +7,6 @@ body {
 	margin: 2rem;
 }
 
-/* Added a so that we can style the color of the link*/
 h1 a {
 	display: flex;
 	justify-content: center;
@@ -96,35 +95,12 @@ section {
 	grid-template-columns: repeat(3, 1fr); 
 	grid-template-rows: minmax(200px, auto);
 	justify-content: center;
-
-	/*justify-content: space-between;
-	flex-wrap: wrap; 
-	margin: 30px 10px;
-	flex-flow: row;
-	gap: 15px;
-	width: 1500px;*/
 }
 
 section div a {
 	text-decoration: none;
 	color: #A56021;
 }
-
-/*.image img {
-	display: grid;
-	align-items:
-	/*grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: minmax(400px, auto);
-	overflow: hidden;
-	margin: 8px 8px;
-	padding: 10px;
-	width: 450px;
-	height: 200px;
-
-	height: 200px;
-	width: 200px;
-	margin: 20px;
-	 :(  */
 
 .links {
 	background-color: #d0c9b6;
